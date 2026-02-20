@@ -42,9 +42,10 @@ else:
 
         else:
             attempts += 1
+            remaining_attempts: int = max_attempts - attempts
 
             if attempts < max_attempts:
-                print("Access Denied. Please try again.")
-                
+                print(f"Access Denied. You have {remaining_attempts} attempt(s) left, please try again.")
+
             else:
                 print("Too many failed attempts. Account locked. Have a nice day.")
