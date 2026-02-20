@@ -30,16 +30,21 @@ else:
 
         if password == users[username]:
             security_level: str
+
             if username == "guest":
                 security_level = "Guest Access"
+
             else:
                 security_level = "Security Level 1"
 
                 print(f"Welcome, {username}! You have {security_level}.")
                 break
+
         else:
             attempts += 1
+
             if attempts < max_attempts:
                 print("Access Denied. Please try again.")
+                
             else:
                 print("Too many failed attempts. Account locked. Have a nice day.")
