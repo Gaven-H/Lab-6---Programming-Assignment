@@ -20,3 +20,8 @@ username: str = input("Please enter a username: ")
 
 if username not in users:
     print("User not found. Exiting.")
+
+else:
+    attempts: int = 0
+    max_attempts: int = 3
+    
