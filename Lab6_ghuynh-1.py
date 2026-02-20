@@ -9,5 +9,9 @@ Febuary 19, 2026
 """
 
 users: dict[str, str] = {
-    
+    "ghuynh": "T0tally_5trong_P@ssword!",
+    "gwalters": "S3curePass!",
+    "admin": "password123!",
+    "guest": "guest"
+
 }
