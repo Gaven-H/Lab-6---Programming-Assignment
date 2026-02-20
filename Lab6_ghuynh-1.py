@@ -27,3 +27,10 @@ else:
 
     while attempts < max_attempts:
         password: str = input("Please enter a password: ")
+
+        if password == users[username]:
+            security_level: str
+            if username == "guest":
+                security_level = "Guest Access"
+            else:
+                security_level = "Security Level 1"
