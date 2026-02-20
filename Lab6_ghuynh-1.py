@@ -15,3 +15,5 @@ users: dict[str, str] = {
     "guest": "guest"
 
 }
+
+username: str = input("Please enter a username: ")
