@@ -17,3 +17,6 @@ users: dict[str, str] = {
 }
 
 username: str = input("Please enter a username: ")
+
+if username not in users:
+    print("User not found. Exiting.")
