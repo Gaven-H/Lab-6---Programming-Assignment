@@ -37,3 +37,6 @@ else:
 
                 print(f"Welcome, {username}! You have {security_level}.")
                 break
+        else:
+            attempts += 1
+            
