@@ -24,4 +24,5 @@ if username not in users:
 else:
     attempts: int = 0
     max_attempts: int = 3
-    
+
+    while attempts < max_attempts:
