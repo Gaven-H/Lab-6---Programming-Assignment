@@ -39,4 +39,5 @@ else:
                 break
         else:
             attempts += 1
-            
+            if attempts < max_attempts:
+                print("Access Denied. Try again.")
