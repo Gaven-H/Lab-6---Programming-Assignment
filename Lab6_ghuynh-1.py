@@ -26,3 +26,4 @@ else:
     max_attempts: int = 3
 
     while attempts < max_attempts:
+        password: str = input("Please enter a password: ")
