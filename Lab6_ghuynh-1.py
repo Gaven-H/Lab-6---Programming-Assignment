@@ -7,3 +7,7 @@ It will validate the user's credentials and assign a security level as well
 as limit password attempts to three.
 Febuary 19, 2026
 """
+
+users: dict[str, str] = {
+    
+}
