@@ -34,3 +34,6 @@ else:
                 security_level = "Guest Access"
             else:
                 security_level = "Security Level 1"
+
+                print(f"Welcome, {username}! You have {security_level}.")
+                break
